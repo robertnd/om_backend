@@ -1,0 +1,57 @@
+package co.ke.vergeinteractive.bizservice.repository;
+
+public interface RecommendationSummaryDto {
+
+    Long getCustomer_Id();
+    String getCustomer_Pid();
+    String getFirst_Name();
+    String getOther_Names();
+    String getSurname();
+    String getTitle();
+    String getDate_Of_Birth();
+    String getGender();
+    String getMarital_Status();
+    String getId_Type();
+    String getId_Number();
+    String getPin();
+    String getHeight();
+    String getWeight();
+    String getData_Source();
+    String getStatus();
+    String getNationality();
+    String getCountry_Of_Residence();
+    Long getContacts_Id();
+    String getMobile_Number();
+    String getHome_Number();
+    String getPostal_Address();
+    String getPostal_Code();
+    String getTown_City();
+    String getPhysical_Address();
+    String getEmail();
+    Long getOccupation_Id();
+    String getOccupation_Type();
+    String getOccupation_Details();
+    String getJob_Title();
+    String getWorkplace_Name();
+    String getPostal_Address_Work();
+    String getPostal_Code_Work();
+    String getTown_City_Work();
+    String getPhysical_Address_Work();
+    String getWork_Number();
+    String getEmail_Work();
+    Long getRecommendation_Id();
+    String getTot_Products();
+    String getNeeds_Met();
+    String getHealth_Products();
+    String getHealth_Recommendations();
+    String getInvestment_Products();
+    String getInvestment_Recommendations();
+    String getLife_Products();
+    String getLife_Recommendations();
+    String getMotor_Products();
+    String getMotor_Recommendations();
+    String getNon_Motor_Products();
+    String getNon_Motor_Recommendations();
+    String getTravel_Products();
+    String getTravel_Recommendations();
+}
